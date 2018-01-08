@@ -7,7 +7,7 @@ import glob
 
 DATA_PATH = '../Data/data_speech_commands_v0.01/'
 
-def feature_extractor():
+def load_data():
     X_train = []
     X_val = []
     X_test = []
@@ -67,4 +67,4 @@ def feature_extractor():
 #librosa.display.waveplot(data, sr=sampling_rate)
 
 ##Feature Extraction
-[[X_train, Y_train, X_val, Y_val, X_test, Y_test],labels] = feature_extractor()
+#[[X_train, Y_train, X_val, Y_val, X_test, Y_test],labels] = feature_extractor()
