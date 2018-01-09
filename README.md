@@ -8,7 +8,7 @@ You can download tensorflow's speech dataset [here](https://storage.cloud.google
 
 * Download it in Data/ folder and extract  
 * Go to Data/data_speech_commands_v0.01 and execute   
-   "ls \*/\* > training_list.txt"
+   "ls \*/\*.wav > training_list.txt"
 
 ## Files
 
